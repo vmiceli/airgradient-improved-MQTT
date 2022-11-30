@@ -17,7 +17,8 @@ If you have same kind of reporting from your AirGradient - go with this version.
 Installation
 ------------
 You have to replace included AirGradient.cpp and AirGradient.h libraries in your Arduino.app Libraries directory.
-ALso install https://github.com/marvinroger/async-mqtt-client
+
+Also install https://github.com/marvinroger/async-mqtt-client
 
 Then flash included C02_PM1_PM2_PM10_SHT_OLED_WIFI_MATT.ino as new AirGradient board firmware after customizing the WIFI and MQTT settings
 
