@@ -1,4 +1,4 @@
-Improved version of AirGradient Arduino Library for ESP8266 (Wemos D1 MINI)
+Improved version of AirGradient Arduino Library for ESP8266 (Wemos D1 MINI) with MQTT support
 =====================================================================================================
 
 This is improved fork of official [airgradienthq/arduino](https://github.com/airgradienthq/arduino) repo this version **enables** Plantower PMS5003 sensor capabilities  
