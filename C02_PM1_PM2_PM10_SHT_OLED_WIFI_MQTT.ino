@@ -93,8 +93,8 @@ void setup() {
   mqttClient.onMessage(onMqttMessage);
   mqttClient.onPublish(onMqttPublish);
   mqttClient.setServer(MQTT_HOST, MQTT_PORT);
-// If your broker requires authentication (username and password), set them below
-  mqttClient.setCredentials("mqtt_device", "mqtt_ae019nk*");
+// If your broker requires authentication (username and password), set them below. Comment out if not required
+  mqttClient.setCredentials("mqtt_broker_username", "mqtt_broker+pwd");
   connectToWifi();
 
 
